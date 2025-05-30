@@ -23,8 +23,8 @@ NotesWebApp is a web application to manage your notes no matter what they are us
 
 ## General Architecture: 
 - **Frontend:** React application with Vite js that consumes the backend APIs. 
-- Backend:** REST API in Express that communicates with the database. 
-- Database:** SQLite to store notes and categories information.
+- **Backend:** REST API in Express that communicates with the database. 
+- **Database:** SQLite to store notes and categories information.
 
 ## Prerequisites: 
 - Node.js 16+ 
@@ -33,8 +33,8 @@ NotesWebApp is a web application to manage your notes no matter what they are us
 ## Steps: 
 
 1. - Clone this repository:  
-   - git clone https://github.com/ensolvers-github-challenges/Monsalve-d48fd6.git
-   - cd Monsalve-d48fd6
+   - git clone https://github.com/Juanes1812/NotesWebAplication.git
+   - cd NotesWebAplication
 2. - cd backend
    - yarn install
    - yarn start
@@ -44,8 +44,8 @@ NotesWebApp is a web application to manage your notes no matter what they are us
 
 ## Script:  
 
-   - git clone https://github.com/ensolvers-github-challenges/Monsalve-d48fd6.git
-   - cd Monsalve-d48fd6
+   - git clone https://github.com/Juanes1812/NotesWebAplication.git
+   - cd NotesWebAplication
    - cd backend
    - yarn install
    - yarn start

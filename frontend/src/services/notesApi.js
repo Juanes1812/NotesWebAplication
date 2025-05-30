@@ -41,7 +41,7 @@ const api = axios.create({
     }
   }; 
 
-  //Edit status
+  //Editar estado 
   export const editArchived = async (noteId ) => {
     try {
       const response = await api.put(`/archived/${noteId}`);

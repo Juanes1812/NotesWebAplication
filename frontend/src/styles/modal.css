@@ -1,0 +1,47 @@
+.modal {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+  }
+  
+  .modalContent {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #0a0a0a; 
+    width: 400px;
+    text-align: center;
+  }
+
+  .attributeBoxNoteModal {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+
+.attributeBoxNoteModal input,
+.attributeBoxNoteModal textarea,
+.attributeBoxNoteModal select {
+  width: 95%;
+  padding: 8px;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.buttonSubmitModal button,
+.modalContent button {
+  background-color: #c770c0; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  margin-top: 10px;
+}
+  

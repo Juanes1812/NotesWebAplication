@@ -1,0 +1,42 @@
+.containerNoteList {
+    flex: 1;
+    border: 2px solid #333;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #e6b7f5;
+}
+
+.rowCreationNoteList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.rowCreationNoteList p{
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.rowCreationArchivedButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.buttonsNotesList{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
